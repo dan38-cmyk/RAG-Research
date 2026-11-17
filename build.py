@@ -1,11 +1,11 @@
-"""Build the static research reader from the two Review 1 sections in SPEC.md."""
+"""Build the static research reader from RESEARCH.md."""
 
 import html
 import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-OUTPUT = ROOT / "site"
+OUTPUT = ROOT / "docs"
 
 
 def inline(value):

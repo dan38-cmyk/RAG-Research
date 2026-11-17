@@ -13,11 +13,14 @@ Python 3.12+; no Node or extra packages required:
 
 ```sh
 python build.py
-python -m http.server 8010 --directory site
+python -m http.server 8010 --directory docs
 ```
 
 Open http://localhost:8010. Stop with Ctrl+C. Use port 8011 for a second site running at the same time.
-The `site/` output is static and can be hosted separately; no hosted URL is claimed.
+The `docs/` output is ready for GitHub Pages. Enable **Settings → Pages → Deploy from a branch → main → /docs → Save**.
+
+Expected address after successful publication: https://dan38-cmyk.github.io/RAG-Research/
+This address is not verified live until Pages is enabled and deployment completes.
 On GitHub, read RESEARCH.md directly; HTML files display as source.
 
 ## State
